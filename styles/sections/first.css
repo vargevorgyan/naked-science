@@ -1,5 +1,6 @@
 .first-section {
-  background-image: url('./images/cloud-bg.svg'), url('./images/lines-01.svg');
+  background-image: url('../../images/cloud-bg.svg'),
+    url('../../images/lines-01.svg');
   background-position: center;
   background-repeat: no-repeat, repeat;
   height: 800px;
@@ -9,7 +10,7 @@
 @media (max-width: 1140px) {
   .first-section {
     padding-top: 130px;
-    background-image: url('./images/lines-01.svg');
+    background-image: url('../../images/lines-01.svg');
     background-repeat: repeat;
     height: auto;
   }
@@ -67,7 +68,7 @@ first-section__cooperation-logos {
 
 .illustration {
   background-color: black;
-  background-image: url('./images/lines-01.svg');
+  background-image: url('../../images/lines-01.svg');
   background-position: center;
   text-align: center;
 }
