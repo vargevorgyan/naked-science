@@ -1,0 +1,112 @@
+.interesting-facts-section {
+  padding-bottom: 100px;
+}
+
+.interesting-facts {
+  background-color: #0f1011;
+  padding: 80px 105px;
+}
+
+@media (width < 920px) {
+  .interesting-facts {
+    padding: 40px 16px;
+  }
+}
+
+.interesting-facts__headline {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: white;
+}
+
+@media (width < 920px) {
+  .interesting-facts__headline {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+.interesting-fact {
+  margin-top: 56px;
+  align-items: center;
+  column-gap: 48px;
+  display: grid;
+  row-gap: 24px;
+  grid-template-rows: auto 1fr;
+  align-items: flex-start;
+  grid-template-areas:
+    'title       image'
+    'description image';
+}
+
+@media (width < 920px) {
+  .interesting-fact {
+    margin-top: 32px;
+    grid-template-areas:
+      'image'
+      'title'
+      'description';
+    row-gap: 0px;
+  }
+}
+
+.interesting-fact--reversed {
+  grid-template-areas:
+    'image title'
+    'image description';
+}
+
+@media (width < 920px) {
+  .interesting-fact--reversed {
+    margin-top: 32px;
+    grid-template-areas:
+      'image'
+      'title'
+      'description';
+  }
+}
+
+.interesting-fact__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: #dbdbdb;
+  grid-area: title;
+}
+
+@media (width < 920px) {
+  .interesting-fact__title {
+    margin-top: 24px;
+    font-size: 16px;
+  }
+}
+
+.interesting-fact__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #dbdbdb;
+  grid-area: description;
+}
+
+@media (width < 920px) {
+  .interesting-fact__description {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+}
+
+.interesting-fact__image {
+  grid-area: image;
+}
+
+@media (width < 920px) {
+  .interesting-fact__image {
+    width: 295px;
+    justify-self: center;
+  }
+}

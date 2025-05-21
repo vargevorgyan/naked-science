@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Arian AMU";
+    font-style: normal;
+    font-weight: normal;
+    src:
+        url("../fonts/arianamu/arnamu.ttf")
+}
+
+@font-face {
+    font-family: "Arian AMU";
+    font-style: normal;
+    font-weight: bold;
+    src:
+        url("../fonts/arianamu/arnamu_bold.ttf")
+}
+
+
+@font-face {
+    font-family: "Arian AMU";
+    font-style: italic;
+    font-weight: normal;
+    src:
+        url("../fonts/arianamu/arnamu_italic.ttf")
+}
+
+
+@font-face {
+    font-family: "Arian AMU";
+    font-style: italic;
+    font-weight: bold;
+    src:
+        url("../fonts/arianamu/arnamu_italic_bold.ttf")
+}

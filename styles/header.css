@@ -1,0 +1,126 @@
+.header {
+    background-color: #191818;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header__container {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    max-width: 1240px;
+    padding-inline: 10px;
+}
+
+.header__logo {
+    margin: 15px 0;
+}
+
+.navbar__list {
+    margin: 18px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+@media (width < 1140px) {
+    .navbar {
+        display: none;
+    }
+}
+
+.navbar__item {
+    font-weight: bold;
+}
+
+.navbar__link {
+    color: #C3C3C3;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.navbar__link:hover {
+    color: white;
+}
+
+.header__spacer {
+    flex: 1;
+}
+
+.header__button {
+    border: none;
+    background: none;
+}
+
+.header__more-button,
+.header__search-button,
+.header__settings-button {
+    width: 24px;
+    height: 24px;
+}
+
+@media (width < 1140px) {
+
+    .header__more-button,
+    .header__search-button,
+    .header__notification-button {
+        display: none;
+    }
+}
+
+
+
+.header__text-us-button {
+    padding: 12px 25.5px;
+    font-size: 14px;
+    border: 1px solid #444444;
+    background-color: #212121;
+    border-radius: 12px;
+    color: white;
+    margin: 10px 0;
+}
+
+.header__user-section {
+    margin: 10px 0 10px -4px;
+    display: flex;
+    align-items: center;
+}
+
+@media (width < 1140px) {
+    .header__user-section {
+        display: none;
+    }
+}
+
+.header__profile-picture {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #444444;
+    border-radius: 45px;
+}
+
+.header__username {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arian AMU";
+    color: white;
+    margin: 13px 0 10px 15px;
+}
+
+.header__settings-button {
+    margin: 9px;
+}
+
+.header__burger {
+    height: 24px;
+}
+
+@media (width > 1140px) {
+   .header__burger {
+    display: none;
+   } 
+}

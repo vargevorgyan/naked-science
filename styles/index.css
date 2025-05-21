@@ -1,0 +1,13 @@
+@import "./base.css";
+@import "./fonts.css";
+@import "./header.css";
+
+@import "./sections/first.css";
+@import "./sections/second.css";
+@import "./sections/articles.css";
+@import "./sections/interesting-facts.css";
+@import "./footer.css";
+
+.main {
+    background-color: black;
+}
